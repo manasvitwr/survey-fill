@@ -34,16 +34,17 @@ python main.py
 - Errors will occur if you use the tool on forms not matching the above requirements.
 
 ## Demo
-Enter the Google Form URL: [pasted form link]
-Enter the number of submissions to make: 3
 
-Enter the names to use for submissions:
+*Enter the Google Form URL: [pasted form link]
+*Enter the number of submissions to make: 3
 
-Enter names for each submission (one per line). Press Enter twice when done.
-If you don't enter enough names, random Indian names will be used for remaining submissions.
-testname1
-testname2
-testname3
+*Enter the names to use for submissions:
+
+*Enter names for each submission (one per line). Press Enter twice when done.
+*If you don't enter enough names, random Indian names will be used for remaining submissions.
+*testname1
+*testname2
+*testname3
 
 
-Using 3 names for submissions
+*Using 3 names for submissions
