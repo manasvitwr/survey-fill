@@ -10,11 +10,15 @@ A Python script that automatically fills and submits google forms multiple times
 
 ## How To Use
 1. Install dependencies  
-
-pip install playwright
-playwright install chromium
+```bash
+  pip install playwright
+  playwright install chromium
+  ```
 2. Execute the script  
+```bash
 python main.py
+```
+
 3. Enter the Google Form URL when prompted.
 4. Specify how many submissions you want to make.
 5. Enter names for each submission (one per line, then press Enter twice when done).
