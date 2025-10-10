@@ -1,14 +1,14 @@
 # Survey-filler
 A Python script that automatically fills and submits google forms multiple times using randomized answers for selectable questions. It uses playwright to simulate browser interactions and can run multiple submissions concurrently.
 
-## Main Features
+## Features
 * Automatically detects and answers multiple choice (MCQs), checkbox, linear scale, and grid questions with random selections
 * Fills name fields with custom names or random names if not provided
 * Supports multiple concurrent submissions using thread pooling
 * Skips all text-based questions except name fields
 * Maintains detailed logging of submission progress and results
 
-## How To Use
+## Usage
 1. Install dependencies  
 ```bash
   pip install playwright
@@ -33,7 +33,7 @@ python main.py
 - Inappropriate use or spamming of forms is strictly discouraged and can result in errors or your responses being ignored.
 - Errors will occur if you use the tool on forms not matching the above requirements.
 
-## Demo
+## Example 
 
 ```text
 Enter the Google Form URL: [pasted form link]
@@ -42,10 +42,10 @@ Enter the number of submissions to make: 3
 Enter the names to use for submissions:
 
 Enter names for each submission (one per line). Press Enter twice when done.
-If you don't enter enough names, random Indian names will be used for remaining submissions.
-testname1
-testname2
-testname3
+If you don't enter enough names, random names will be used for remaining submissions.
+Jake29M
+Amy27F
+Gina29F
 
 Using 3 names for submissions
 ```

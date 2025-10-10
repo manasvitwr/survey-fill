@@ -726,7 +726,7 @@ Thread pool submission completed:
 def get_names_from_user() -> List[str]:
     """Get list of names from user input."""
     print("\nEnter names for each submission in format: name+age+gender(F/M)")
-    print("Example: Mark41M")
+    print("Example: Zuck41M")
     print("Press Enter twice when done.")
     print("If you don't enter enough names, random names will be used for remaining submissions.")
     names = []
